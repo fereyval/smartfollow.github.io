@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>SmartFollow - Logiciel de suivi scolaire</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="svg" href="img/logo.ico" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Afficher navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img alt="Logo SmartFollow" src="img/logo_small.png" />
+				</a>
+				<a class="navbar-brand brand-name" href="#"><strong>Smart</strong>Follow</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Accueil</a></li>
+					<li><a href="#presentation">Présentation</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li><a href="#contact">Aidez-nous</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row splashscreen" id="home">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="row table-display">
+						<div class="col-md-6 hidden-xs logo table-cell-display">
+							<img src="img/logo.png" alt="Logo SmartFollow" />
+						</div>
+						<div class="col-md-6 col-xs-12 catch-phrase table-cell-display">
+							<p>
+								<span class="brand-name"><strong>Smart</strong>Follow</span> est un logiciel de suivi scolaire qui permet de
+								suivre les étudiants au jour le jour,
+								pas seulement via leurs notes,
+								mais avec des critères de suivi personnalisés,
+								qui sont ensuite analysés par une intelligence artificielle,
+								pour identifier les étudiants en difficulté à temps.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row presentation" id="presentation">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Présentation du projet</h2>
+
+							<p>
+								L'objectif du projet est d'offrir une solution complète d'ENT (Environnement Numérique de Travail) et entièrement personnalisable selon le fonctionnement de la structure scolaire, avec une surcouche d'intelligence artificielle permettant d'analyser l'évolution de la scolarité d'un étudiant et de détecter à temps les problèmes concernant sa scolarité, avant que cela ne compromette durablement leur scolarité.
+							</p>
+
+							<p>
+								Notre solution se destine à 4 types d'utilisateurs principaux :
+							</p>
+							<ul>
+								<li>Les administrateurs vont définir la configuration du logiciel, à travers les différents critères de suivi, les processus métiers pour la gestion administrative de la scolarité, les groupes d'utilisateurs, les critères à utiliser pour générer automatiquement des alertes, les graphiques à afficher sur la page de chaque utilisateur, ...</li>
+								<li>L'équipe administrative (service de vie scolaire, secrétariat, ...) va pouvoir gérer la réservation des salles, les absences des étudiants, etc...</li>
+								<li>Les professeurs vont pouvoir renseigner les critères de suivi pour chaque personne qu'ils suivent, avec par exemple le comportement d'un élève durant une heure de cours ou ses notes aux examens.</li>
+								<li>Les étudiants et leurs parents vont disposer d'une page personnalisée faisant un résumé de leur suivi, à travers les graphiques et les alertes qui auront été configurées par l'administrateur. Par exemple, le système pourra générer automatiquement une alerte visible par l'étudiant si ses notes diminuent et que ses problèmes de comportement augmentent, permettant ainsi de détecter plus rapidement des problèmes.</li>
+							</ul>
+
+							<p>
+								A l'heure actuelle les logiciels existants se contentent d'effectuer la gestion administrative des structures scolaires, sans proposer de solution pour le suivi scolaire des étudiants et d'adapter la solution aux besoins de l'établissement. De plus, l'existant n'offre pas de solution complète et doit s'ajouter au dessus des logiciels de gestion de la vie scolaire et de la base de données de la structure.
+							</p>
+
+							<p>
+								Notre solution permet de gérer intégralement la structure afin de proposer un outil unique pour les professeurs, l'équipe administrative (secrétariat, direction, ...) ainsi que les élèves et leurs parents réunissant les fonctionnalités nécessaires à la gestion de l'établissement (réservation des salles, gestion des classes, messagerie, ...), la gestion administrative (processus de recrutement et d'évolution du cursus de l'élève), la gestion des ressources pédagogiques (documents déposés par les professeurs, devoirs, ...) et d'y ajouter le suivi pédagogique via une intelligence artificielle qui analysera les comportements et les résultats de l'étudiant, ainsi que lui permettre de se tenir informé des événements de sa scolarité (devoirs à rendre, professeur absent, réunions, ...) via des notifications automatiques.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row gallery" id="gallery">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Galerie des fonctionnalités</h2>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/profile_teacher.jpg">
+									<img src="gallery/profile_teacher_small.jpg" alt="">
+									<div class="caption">
+										Profil d'un professeur
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/profile_student.jpg">
+									<img src="gallery/profile_student_small.jpg" alt="">
+									<div class="caption">
+										Profil d'un étudiant
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/planning.jpg">
+									<img src="gallery/planning_small.jpg" alt="">
+									<div class="caption">
+										Planning des activités
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/lesson.jpg">
+									<img src="gallery/lesson_small.jpg" alt="">
+									<div class="caption">
+										Déroulement d'un cours
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/marks_exam.jpg">
+									<img src="gallery/marks_exam_small.jpg" alt="">
+									<div class="caption">
+										Notation d'un examen
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/evaluations.jpg">
+									<img src="gallery/evaluations_small.jpg" alt="">
+									<div class="caption">
+										Évaluation des critères
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/notifications.jpg">
+									<img src="gallery/notifications_small.jpg" alt="">
+									<div class="caption">
+										Notifications de l'établissement
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="thumbnail" data-type="modal" data-src="gallery/messaging.jpg">
+									<img src="gallery/messaging_small.jpg" alt="">
+									<div class="caption">
+										Messagerie
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row contact" id="contact">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 title">
+							<h3>Votre avis nous intéresse !</h3>
+						</div>
+						<div class="col-md-12 form-group button">
+							<a class="btn-info btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSduaGapruQfH-Tl6-s8QY9oPqF0AzAs3Y_9A9PfSVTOqhsHtg/viewform?usp=sf_link">Acceder au formulaire</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal-wrapper" id="modal-wrapper">
+		<div class="img-modal" id="gallery-modal">
+			<a href="#" class="close-modal"><span class="glyphicon glyphicon-remove"></span></a>
+
+			<img src="gallery/profile_teacher.jpg" alt="" />
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/anchors.js"></script>
+</body>
+</html>
